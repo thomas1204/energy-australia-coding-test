@@ -82,7 +82,6 @@ async function getRequestWithBackoff(url: string, retries = 5): Promise<request.
 
     attempt++
     await new Promise((resolve) => setTimeout(resolve, delay))
-
     delay *= 2
   }
 

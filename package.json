@@ -1,6 +1,9 @@
 {
   "name": "energy-australia-coding-test",
   "packageManager": "yarn@4.4.0",
+  "scripts": {
+    "test": "vitest"
+  },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@types/supertest": "^6.0.2",
