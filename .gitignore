@@ -12,3 +12,6 @@
 
 # webstorm
 .idea/
+
+# node
+node_modules/
