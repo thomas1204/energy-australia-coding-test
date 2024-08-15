@@ -30,7 +30,7 @@ describe('apiFestivalsGet', () => {
   })
 
   describe('when called with param', () => {
-    test('ignores param returns 200', async () => {
+    test('ignores param and returns 200', async () => {
       try {
         const response: Response = await getRequestWithBackoff(`${BASE_URL}?name=Test Festival`)
         expect(response.status).toBe(200)
