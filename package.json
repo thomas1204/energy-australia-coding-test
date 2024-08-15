@@ -1,0 +1,19 @@
+{
+  "name": "energy-australia-coding-test",
+  "packageManager": "yarn@4.4.0",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/supertest": "^6.0.2",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "prettier": "3.3.3",
+    "supertest": "^7.0.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.1.0",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
