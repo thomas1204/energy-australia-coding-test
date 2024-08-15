@@ -70,12 +70,12 @@ describe('apiFestivalsGet', () => {
   })
 })
 
-async function getRequestWithBackoff(url: string, retries = 5): Promise<request.Response> {
+async function getRequestWithBackoff(url: string, retries = 5): Promise<Response> {
   let attempt = 0
   let delay = 1000
 
   while (attempt < retries) {
-    const response = await request(url).get('')
+    const response: Response = await request(url).get('')
 
     // If not throttled, return the response
     if (response.status !== 429) return response
