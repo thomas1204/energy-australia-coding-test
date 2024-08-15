@@ -29,7 +29,7 @@ describe('apiFestivalsGet', () => {
     }, 10000)
   })
 
-  describe('when called with param', () => {
+  describe('when called with correct param', () => {
     test('ignores param and returns 200', async () => {
       try {
         const response: Response = await getRequestWithBackoff(`${BASE_URL}?name=Test Festival`)
