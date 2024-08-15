@@ -3,6 +3,10 @@ This repository demonstrates a basic setup for testing a single functionality us
 
 ## Project Setup
 ### 1. Clone the repository
+```bash
+gh repo clone thomas1204/energy-australia-coding-test
+```
+
 ### 2. Install dependencies using yarn
 ```bash
 yarn install
